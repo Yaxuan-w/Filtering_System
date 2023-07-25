@@ -8,6 +8,9 @@ let json_input = r#"{
         "match_action": "allow",
         "filter": [
             {
+                "syscall": "newfstatat"
+            },
+            {
                 "syscall": "sysinfo"
             },
             {
