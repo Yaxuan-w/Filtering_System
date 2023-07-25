@@ -2,4 +2,4 @@
 
 A syscall filter with whitelisting using `seccomp`
 
-*Note* allow_list.json is a sample code
+*Note:* allow_list.json is a sample code
