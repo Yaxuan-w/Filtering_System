@@ -7,38 +7,115 @@ let json_input = r#"{
         "match_action": "allow",
         "filter": [
             {
-                "syscall": "accept4"
+                "syscall": "sysinfo"
             },
             {
-                "syscall": "fcntl",
-                "args": [
-                    {
-                        "index": 1,
-                        "type": "dword",
-                        "op": "eq",
-                        "val": 2,
-                        "comment": "F_SETFD"
-                    },
-                    {
-                        "index": 2,
-                        "type": "dword",
-                        "op": "eq",
-                        "val": 1,
-                        "comment": "FD_CLOEXEC"
-                    }
-                ]
+                "syscall": "execve"
             },
             {
-                "syscall": "fcntl",
-                "args": [
-                    {
-                        "index": 1,
-                        "type": "dword",
-                        "op": "eq",
-                        "val": 1,
-                        "comment": "F_GETFD"
-                    }
-                ]
+                "syscall": "prlimit64"
+            },
+            {
+                "syscall": "set_tid_address"
+            },
+            {
+                "syscall": "munmap"
+            },
+            {
+                "syscall": "access"
+            },
+            {
+                "syscall": "getdents64"
+            },
+            {
+                "syscall": "pread64"
+            },
+            {
+                "syscall": "arch_prctl"
+            },
+            {
+                "syscall": "getegid"
+            },
+            {
+                "syscall": "dup2"
+            },
+            {
+                "syscall": "write"
+            },
+            {
+                "syscall": "openat"
+            },
+            {
+                "syscall": "connect"
+            },
+            {
+                "syscall": "brk"
+            },
+            {
+                "syscall": "read"
+            },
+            {
+                "syscall": "lseek"
+            },
+            {
+                "syscall": "getpgrp"
+            },
+            {
+                "syscall": "rt_sigaction"
+            },
+            {
+                "syscall": "close"
+            },
+            {
+                "syscall": "rseq"
+            },
+            {
+                "syscall": "socket"
+            },
+            {
+                "syscall": "getppid"
+            },
+            {
+                "syscall": "chdir"
+            },
+            {
+                "syscall": "mprotect"
+            },
+            {
+                "syscall": "mmap"
+            },
+            {
+                "syscall": "getuid"
+            },
+            {
+                "syscall": "uname"
+            },
+            {
+                "syscall": "getrandom"
+            },
+            {
+                "syscall": "geteuid"
+            },
+            {
+                "syscall": "set_robust_list"
+            },
+            {
+                "syscall": "ioctl"
+            },
+            {
+                "syscall": "fcntl"
+            },
+            {
+                "syscall": "getgid"
+            },
+            {
+                "syscall": "getpid"
+            },
+            {
+                "syscall": "futex"
+            },
+            {
+                "syscall": "clone"
             }
         ]
     }
