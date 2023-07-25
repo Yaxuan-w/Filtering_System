@@ -1,0 +1,375 @@
+execve("/home/lind/lind_project/src/scripts/lind", ["lind", "/bin/nginx"], 0x7ffd673b4d48 /* 21 vars */) = 0
+brk(NULL)                               = 0x556fb78b5000
+arch_prctl(0x3001 /* ARCH_??? */, 0x7ffe26578ed0) = -1 EINVAL (Invalid argument)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe19f205000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/lind/lind_project/lind/lindenv/glibc-hwcaps/x86-64-v3/libreadline.so.8", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/lind/lind_project/lind/lindenv/glibc-hwcaps/x86-64-v3", 0x7ffe265780f0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/lind/lind_project/lind/lindenv/glibc-hwcaps/x86-64-v2/libreadline.so.8", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/lind/lind_project/lind/lindenv/glibc-hwcaps/x86-64-v2", 0x7ffe265780f0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/lind/lind_project/lind/lindenv/tls/haswell/x86_64/libreadline.so.8", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/lind/lind_project/lind/lindenv/tls/haswell/x86_64", 0x7ffe265780f0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/lind/lind_project/lind/lindenv/tls/haswell/libreadline.so.8", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/lind/lind_project/lind/lindenv/tls/haswell", 0x7ffe265780f0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/lind/lind_project/lind/lindenv/tls/x86_64/libreadline.so.8", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/lind/lind_project/lind/lindenv/tls/x86_64", 0x7ffe265780f0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/lind/lind_project/lind/lindenv/tls/libreadline.so.8", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/lind/lind_project/lind/lindenv/tls", 0x7ffe265780f0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/lind/lind_project/lind/lindenv/haswell/x86_64/libreadline.so.8", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/lind/lind_project/lind/lindenv/haswell/x86_64", 0x7ffe265780f0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/lind/lind_project/lind/lindenv/haswell/libreadline.so.8", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/lind/lind_project/lind/lindenv/haswell", 0x7ffe265780f0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/lind/lind_project/lind/lindenv/x86_64/libreadline.so.8", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/lind/lind_project/lind/lindenv/x86_64", 0x7ffe265780f0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/lind/lind_project/lind/lindenv/libreadline.so.8", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/lind/lind_project/lind/lindenv", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "/lib/glibc/glibc-hwcaps/x86-64-v3/libreadline.so.8", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/lib/glibc/glibc-hwcaps/x86-64-v3", 0x7ffe265780f0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/glibc/glibc-hwcaps/x86-64-v2/libreadline.so.8", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/lib/glibc/glibc-hwcaps/x86-64-v2", 0x7ffe265780f0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/glibc/tls/haswell/x86_64/libreadline.so.8", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/lib/glibc/tls/haswell/x86_64", 0x7ffe265780f0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/glibc/tls/haswell/libreadline.so.8", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/lib/glibc/tls/haswell", 0x7ffe265780f0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/glibc/tls/x86_64/libreadline.so.8", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/lib/glibc/tls/x86_64", 0x7ffe265780f0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/glibc/tls/libreadline.so.8", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/lib/glibc/tls", 0x7ffe265780f0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/glibc/haswell/x86_64/libreadline.so.8", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/lib/glibc/haswell/x86_64", 0x7ffe265780f0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/glibc/haswell/libreadline.so.8", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/lib/glibc/haswell", 0x7ffe265780f0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/glibc/x86_64/libreadline.so.8", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/lib/glibc/x86_64", 0x7ffe265780f0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/glibc/libreadline.so.8", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/lib/glibc", 0x7ffe265780f0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "glibc-hwcaps/x86-64-v3/libreadline.so.8", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "glibc-hwcaps/x86-64-v2/libreadline.so.8", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "tls/haswell/x86_64/libreadline.so.8", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "tls/haswell/libreadline.so.8", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "tls/x86_64/libreadline.so.8", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "tls/libreadline.so.8", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "haswell/x86_64/libreadline.so.8", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "haswell/libreadline.so.8", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "x86_64/libreadline.so.8", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "libreadline.so.8", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=38651, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 38651, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fe19f1fb000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libreadline.so.8", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 p\1\0\0\0\0\0"..., 832) = 832
+newfstatat(3, "", {st_mode=S_IFREG|0755, st_size=342984, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 350848, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe19f1a5000
+mmap(0x7fe19f1bc000, 176128, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7fe19f1bc000
+mmap(0x7fe19f1e7000, 40960, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x42000) = 0x7fe19f1e7000
+mmap(0x7fe19f1f1000, 36864, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4b000) = 0x7fe19f1f1000
+mmap(0x7fe19f1fa000, 2688, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fe19f1fa000
+close(3)                                = 0
+openat(AT_FDCWD, "/home/lind/lind_project/lind/lindenv/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "glibc-hwcaps/x86-64-v3/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "glibc-hwcaps/x86-64-v2/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "tls/haswell/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "tls/haswell/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "tls/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "tls/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "haswell/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "haswell/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+newfstatat(3, "", {st_mode=S_IFREG|0755, st_size=14360, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 16424, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe19f1a0000
+mmap(0x7fe19f1a1000, 4096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7fe19f1a1000
+mmap(0x7fe19f1a2000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fe19f1a2000
+mmap(0x7fe19f1a3000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fe19f1a3000
+close(3)                                = 0
+openat(AT_FDCWD, "/home/lind/lind_project/lind/lindenv/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "glibc-hwcaps/x86-64-v3/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "glibc-hwcaps/x86-64-v2/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\224\2\0\0\0\0\0"..., 832) = 832
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+pread64(3, "\4\0\0\0@\0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0"..., 80, 848) = 80
+pread64(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0`\337\35\363\37\2\247\262=\250>\216\371#5\230"..., 68, 928) = 68
+newfstatat(3, "", {st_mode=S_IFREG|0755, st_size=2100888, ...}, AT_EMPTY_PATH) = 0
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+mmap(NULL, 2146032, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe19ef94000
+mprotect(0x7fe19efbc000, 1904640, PROT_NONE) = 0
+mmap(0x7fe19efbc000, 1540096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x28000) = 0x7fe19efbc000
+mmap(0x7fe19f134000, 360448, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1a0000) = 0x7fe19f134000
+mmap(0x7fe19f18d000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1f8000) = 0x7fe19f18d000
+mmap(0x7fe19f193000, 52976, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fe19f193000
+close(3)                                = 0
+openat(AT_FDCWD, "/home/lind/lind_project/lind/lindenv/libncursesw.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "glibc-hwcaps/x86-64-v3/libncursesw.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "glibc-hwcaps/x86-64-v2/libncursesw.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "tls/haswell/x86_64/libncursesw.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "tls/haswell/libncursesw.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "tls/x86_64/libncursesw.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "tls/libncursesw.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "haswell/x86_64/libncursesw.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "haswell/libncursesw.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "x86_64/libncursesw.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "libncursesw.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/libncursesw.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+newfstatat(3, "", {st_mode=S_IFREG|0755, st_size=470232, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 474344, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe19ef20000
+mprotect(0x7fe19ef36000, 364544, PROT_NONE) = 0
+mmap(0x7fe19ef36000, 266240, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16000) = 0x7fe19ef36000
+mmap(0x7fe19ef77000, 94208, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x57000) = 0x7fe19ef77000
+mmap(0x7fe19ef8f000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6e000) = 0x7fe19ef8f000
+close(3)                                = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe19ef1e000
+arch_prctl(ARCH_SET_FS, 0x7fe19ef1efc0) = 0
+set_tid_address(0x7fe19ef1f290)         = 374315
+set_robust_list(0x7fe19ef1f2a0, 24)     = 0
+rseq(0x7fe19ef1f960, 0x20, 0, 0x53053053) = 0
+mprotect(0x7fe19f18d000, 16384, PROT_READ) = 0
+mprotect(0x7fe19ef8f000, 16384, PROT_READ) = 0
+mprotect(0x7fe19f1a3000, 4096, PROT_READ) = 0
+mprotect(0x7fe19f1f1000, 12288, PROT_READ) = 0
+mprotect(0x556fb5e53000, 12288, PROT_READ) = 0
+mprotect(0x7fe19f23c000, 8192, PROT_READ) = 0
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+munmap(0x7fe19f1fb000, 38651)           = 0
+openat(AT_FDCWD, "/dev/tty", O_RDWR|O_NONBLOCK) = 3
+close(3)                                = 0
+getrandom("\xda\x80\x49\x87\x77\xbb\xcf\xf2", 8, GRND_NONBLOCK) = 8
+brk(NULL)                               = 0x556fb78b5000
+brk(0x556fb78d6000)                     = 0x556fb78d6000
+openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=2998, ...}, AT_EMPTY_PATH) = 0
+read(3, "# Locale name alias data base.\n#"..., 4096) = 2998
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=258, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 258, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fe19f23b000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/gconv/gconv-modules.cache", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/gconv/gconv-modules", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=3808, ...}, AT_EMPTY_PATH) = 0
+read(3, "# GNU libc iconv configuration.\n"..., 4096) = 3808
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/gconv/gconv-modules.d", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+getdents64(3, 0x556fb78b8db0 /* 3 entries */, 32768) = 96
+openat(AT_FDCWD, "/usr/lib/gconv/gconv-modules.d/gconv-modules-extra.conf", O_RDONLY|O_CLOEXEC) = 4
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=53974, ...}, AT_EMPTY_PATH) = 0
+read(4, "# GNU libc iconv configuration.\n"..., 4096) = 4096
+read(4, "B1002//\tJUS_I.B1.002//\nmodule\tJU"..., 4096) = 4096
+read(4, "59-5//\nalias\tISO_8859-5//\t\tISO-8"..., 4096) = 4096
+read(4, "59-16//\t\tINTERNAL\t\tISO8859-16\t1\n"..., 4096) = 4096
+read(4, "-SE-A\t1\nmodule\tINTERNAL\t\tEBCDIC-"..., 4096) = 4096
+read(4, "97\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcos"..., 4096) = 4096
+read(4, "1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nal"..., 4096) = 4096
+read(4, "6//\t\tIBM1046//\nalias\tCP1046//\t\tI"..., 4096) = 4096
+read(4, "\tto\t\t\tmodule\t\tcost\nalias\tRUSCII/"..., 4096) = 4096
+brk(0x556fb78f7000)                     = 0x556fb78f7000
+read(4, "03//\nmodule\tCSN_369103//\t\tINTERN"..., 4096) = 4096
+read(4, "\tmodule\t\tcost\nalias\tISO-IR-8-1//"..., 4096) = 4096
+read(4, "IBM1156\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule"..., 4096) = 4096
+read(4, "\t\tIBM1166//\nalias\tCP1166//\t\tIBM1"..., 4096) = 4096
+read(4, "alias\tROMAN9//\t\tHP-ROMAN9//\nalia"..., 4096) = 726
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+getdents64(3, 0x556fb78b8db0 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+futex(0x7fe19f1929ac, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_MEASUREMENT", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=23, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 23, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fe19f204000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_TELEPHONE", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=47, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 47, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fe19f203000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_ADDRESS", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=127, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 127, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fe19f202000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_NAME", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=62, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 62, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fe19f201000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_PAPER", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=34, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 34, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fe19f200000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_MESSAGES", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_MESSAGES/SYS_LC_MESSAGES", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=48, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 48, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fe19f1ff000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_MONETARY", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=270, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 270, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fe19f1fe000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_TIME", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=3360, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 3360, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fe19f1fd000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_NUMERIC", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=50, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 50, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fe19f1fc000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_CTYPE", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=353616, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 353616, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fe19eec7000
+close(3)                                = 0
+getuid()                                = 1000
+getgid()                                = 1000
+geteuid()                               = 1000
+getegid()                               = 1000
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+ioctl(-1, TIOCGPGRP, 0x7ffe26578d84)    = -1 EBADF (Bad file descriptor)
+sysinfo({uptime=947586, loads=[2816, 17120, 14464], totalram=33578561536, freeram=6400241664, sharedram=10084352, bufferram=2383142912, totalswap=2147479552, freeswap=1702682624, procs=1373, totalhigh=0, freehigh=0, mem_unit=1}) = 0
+rt_sigaction(SIGCHLD, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fe19efd28e0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGCHLD, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fe19efd28e0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fe19efd28e0}, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7fe19efd28e0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7fe19efd28e0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7fe19efd28e0}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7fe19efd28e0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7fe19efd28e0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7fe19efd28e0}, 8) = 0
+rt_sigaction(SIGTSTP, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7fe19efd28e0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGTSTP, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7fe19efd28e0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7fe19efd28e0}, 8) = 0
+rt_sigaction(SIGTTIN, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7fe19efd28e0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGTTIN, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7fe19efd28e0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7fe19efd28e0}, 8) = 0
+rt_sigaction(SIGTTOU, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7fe19efd28e0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGTTOU, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7fe19efd28e0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7fe19efd28e0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7fe19efd28e0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7fe19efd28e0}, 8) = 0
+uname({sysname="Linux", nodename="e702b527bf9d", ...}) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+newfstatat(AT_FDCWD, "/home/lind/lind_project/src/scripts/nginx", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, ".", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/lind", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/lind/lind_project", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/lind/lind_project/src", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/lind/lind_project/src/scripts", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/lind/lind_project/src/scripts/nginx", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/lind/lind_project", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+getpid()                                = 374315
+getppid()                               = 374312
+socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+connect(3, {sa_family=AF_UNIX, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+connect(3, {sa_family=AF_UNIX, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+newfstatat(AT_FDCWD, "/etc/nsswitch.conf", {st_mode=S_IFREG|0644, st_size=359, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=359, ...}, AT_EMPTY_PATH) = 0
+read(3, "# Name Service Switch configurat"..., 4096) = 359
+read(3, "", 4096)                       = 0
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=359, ...}, AT_EMPTY_PATH) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/etc/passwd", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=1023, ...}, AT_EMPTY_PATH) = 0
+lseek(3, 0, SEEK_SET)                   = 0
+read(3, "root:x:0:0::/root:/bin/bash\nbin:"..., 4096) = 1023
+close(3)                                = 0
+getpid()                                = 374315
+getppid()                               = 374312
+getpid()                                = 374315
+getppid()                               = 374312
+getpgrp()                               = 374312
+ioctl(2, TIOCGPGRP, [374312])           = 0
+rt_sigaction(SIGCHLD, {sa_handler=0x556fb5dc0900, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fe19efd28e0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fe19efd28e0}, 8) = 0
+prlimit64(0, RLIMIT_NPROC, NULL, {rlim_cur=RLIM64_INFINITY, rlim_max=RLIM64_INFINITY}) = 0
+openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_COLLATE", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=1406, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 1406, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fe19f1fb000
+close(3)                                = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+openat(AT_FDCWD, "/home/lind/lind_project/src/scripts/lind", O_RDONLY) = 3
+newfstatat(AT_FDCWD, "/home/lind/lind_project/src/scripts/lind", {st_mode=S_IFREG|0755, st_size=2538, ...}, 0) = 0
+ioctl(3, TCGETS, 0x7ffe26578d10)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+read(3, "#!/bin/bash\n\n# script configurat"..., 80) = 80
+lseek(3, 0, SEEK_SET)                   = 0
+prlimit64(0, RLIMIT_NOFILE, NULL, {rlim_cur=1024*1024, rlim_max=1024*1024}) = 0
+fcntl(255, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+dup2(3, 255)                            = 255
+close(3)                                = 0
+fcntl(255, F_SETFD, FD_CLOEXEC)         = 0
+fcntl(255, F_GETFL)                     = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+newfstatat(255, "", {st_mode=S_IFREG|0755, st_size=2538, ...}, AT_EMPTY_PATH) = 0
+lseek(255, 0, SEEK_CUR)                 = 0
+read(255, "#!/bin/bash\n\n# script configurat"..., 2538) = 2538
+newfstatat(AT_FDCWD, "/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/lind", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/lind/lind_project", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/lind/lind_project/lind", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/lind/lind_project/lind/lindenv", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/lind/lind_project/lind/lindenv/fs", {st_mode=S_IFDIR|0755, st_size=53248, ...}, 0) = 0
+chdir("/home/lind/lind_project/lind/lindenv/fs") = 0
+fcntl(1, F_GETFD)                       = 0
+fcntl(1, F_DUPFD, 10)                   = 10
+fcntl(1, F_GETFD)                       = 0
+fcntl(10, F_SETFD, FD_CLOEXEC)          = 0
+dup2(2, 1)                              = 1
+fcntl(2, F_GETFD)                       = 0
+newfstatat(1, "", {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0), ...}, AT_EMPTY_PATH) = 0
+write(1, "\n", 1
+)                       = 1
+write(1, "executing: [sel_ldr -a -- \"runna"..., 83executing: [sel_ldr -a -- "runnable-ld.so" --library-path "/lib/glibc" /bin/nginx]
+) = 83
+dup2(10, 1)                             = 1
+fcntl(10, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+close(10)                               = 0
+newfstatat(AT_FDCWD, ".", {st_mode=S_IFDIR|0755, st_size=53248, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/lind/lind_project/src/scripts/sel_ldr", 0x7ffe265789a0, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/lind/lind_project/lind/lindenv/sdk/toolchain/linux_x86_glibc/bin/sel_ldr", 0x7ffe265789a0, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/lind/lind_project/lind/lindenv/bin/sel_ldr", {st_mode=S_IFREG|0755, st_size=3465896, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/lind/lind_project/lind/lindenv/bin/sel_ldr", {st_mode=S_IFREG|0755, st_size=3465896, ...}, 0) = 0
+geteuid()                               = 1000
+getegid()                               = 1000
+getuid()                                = 1000
+getgid()                                = 1000
+access("/home/lind/lind_project/lind/lindenv/bin/sel_ldr", X_OK) = 0
+newfstatat(AT_FDCWD, "/home/lind/lind_project/lind/lindenv/bin/sel_ldr", {st_mode=S_IFREG|0755, st_size=3465896, ...}, 0) = 0
+geteuid()                               = 1000
+getegid()                               = 1000
+getuid()                                = 1000
+getgid()                                = 1000
+access("/home/lind/lind_project/lind/lindenv/bin/sel_ldr", R_OK) = 0
+newfstatat(AT_FDCWD, "/home/lind/lind_project/lind/lindenv/bin/sel_ldr", {st_mode=S_IFREG|0755, st_size=3465896, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/lind/lind_project/lind/lindenv/bin/sel_ldr", {st_mode=S_IFREG|0755, st_size=3465896, ...}, 0) = 0
+geteuid()                               = 1000
+getegid()                               = 1000
+getuid()                                = 1000
+getgid()                                = 1000
+access("/home/lind/lind_project/lind/lindenv/bin/sel_ldr", X_OK) = 0
+newfstatat(AT_FDCWD, "/home/lind/lind_project/lind/lindenv/bin/sel_ldr", {st_mode=S_IFREG|0755, st_size=3465896, ...}, 0) = 0
+geteuid()                               = 1000
+getegid()                               = 1000
+getuid()                                = 1000
+getgid()                                = 1000
+access("/home/lind/lind_project/lind/lindenv/bin/sel_ldr", R_OK) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, [INT TERM CHLD], [], 8) = 0
+lseek(255, -78, SEEK_CUR)               = 2460
+clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fe19ef1f290) = 374316
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+rt_sigaction(SIGINT, {sa_handler=0x556fb5dbdb00, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7fe19efd28e0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7fe19efd28e0}, 8) = 0
